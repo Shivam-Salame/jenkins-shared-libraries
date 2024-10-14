@@ -1,5 +1,5 @@
 def call(String url, String branch){
   echo "This is copying the code"
-  git url: "${url}", branch: "${main}"
+  git url: "${url}", branch: "${branch}"
   echo "code cloned successfully"
 }
